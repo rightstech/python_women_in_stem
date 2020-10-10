@@ -1,6 +1,6 @@
 ## Welcome to the Python Women in STEM Project
 
-This python_women_in_stem file tcan be used to teach learners Python dictionaries and about famous women in science, technology, engineering and mathematics (STEM).
+This python_women_in_stem file can be used to teach learners Python dictionaries and about famous women in science, technology, engineering and mathematics (STEM).
 
 Practice using and making Python dictionaries while learning inspiring content about women in STEM.
 
