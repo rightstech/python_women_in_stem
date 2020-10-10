@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+## Welcome to the Python Women in STEM Project
 
-You can use the [editor on GitHub](https://github.com/ellenwalker-github/python_women_in_stem/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This python_women_in_stem file tcan be used to teach learners Python dictionaries and about famous women in science, technology, engineering and mathematics (STEM).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Practice using and making Python dictionaries while learning inspiring content about women in STEM.
 
-### Markdown
+The file consists of:
+- learning objectives;
+- individual Python dictionaries containing information about famous women in STEM;
+- exercises to do during the learning session; and,
+- follow-up activities for learners to do, using what they have learned and their local physical libraries. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### It is for teachers and learners of any gender to use.
 
-```markdown
-Syntax highlighted code block
+### Contact
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ellenwalker-github/python_women_in_stem/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ellenwalker925@gmail.com
