@@ -1,15 +1,15 @@
 # Python
 Python is a programming language that allows us to communicate with and control our computers.
-Python est un langage de programmation qui nous permet de communiquer avec nos ordinateurs et de les contrôller.
-
 Python is a powerful, popular language - we use it a lot in science!
-Python est un langage puissant et populaire - on l'utilise très souvent dans les sciences!
+
+Python est un langage de programmation qui nous permet de communiquer avec nos ordinateurs et de les contrôller. Python est un langage puissant et populaire - on l'utilise très souvent dans les sciences!
 
 ---
 
 ## Dictionaries / Dictionnaires
 
 Dictionaries are containers, inside which we find other objects. Each object inside is associated with a key.
+
 Les dictionnaires sont des objets conteneurs, dans lesquels on trouve d'autres objets. Chaque object est associé avec un clé.
 
 ```
@@ -28,9 +28,10 @@ License: CC BY-NC-SA 2.0
 
 ---
 
-## Lists
+## Lists / Listes
 
 Lists are objects that contain a sequence of other objects.
+
 Les listes sont des objets qui peuvent en contenir d'autres en sequence.
 
 ```
