@@ -1,205 +1,203 @@
 %% md
-# Les femmes en science le samedi 12 décembre!
+# Women in Science tutorial on Saturday 12th December !
 
-Voici plusieurs dictionnaires Python énumérant des femmes célèbres en science, technologie, ingénierie et mathématiques (aussi appelés STIM).
+These are Python dictionaries of famous women in science, technology, engineering and mathematics.
 
 <img src="https://ec.europa.eu/jrc/sites/jrcsh/files/styles/normal-responsive/public/jrc-women-girls-in-science-graphic.jpg?itok=y7ogpc-R" style="width:400px; padding: 5px 300px"/>
 
-## Objectifs d'apprentissage
+## Learning objectives
 
-* Les apprenants se familiarisent avec le concept d'un dictionnaire Python et comment il peut être utilisé pour organiser et récupérer des informations.
-* Les apprenants peuvent nommer au moins trois femmes célèbres dans les STIM et un des rôles que ce personnage avait.
+* Learners become familiar with the concept of a Python dictionary and how it can be used to organize and retrieve information.
+* Learners can name at least three famous women in STEM and one role that the woman had.
 
-## Questions pouvant être traitées:
+## Questions that can be covered:
 
-* Qu'est-ce que la programmation ?
-* Qu'est-ce que Python ?
-* Qu'est-ce qu'un dictionnaire ?
-* Qu'est-ce qu'une clé ?
-* Qu'est-ce qu'une valeur ?
-* Pourquoi est-il écrit comme ça avec des caractères bizarres et pas seulement du texte? comment ça s'appelle ?
-* Comment créer un dictionnaire moi-même ou avec un camarade de classe? Quelles informations je souhaite organiser ?
-* Que signifie «STIM» ?
-* Qui sont les femmes célèbres en STIM ?
-* Quels emplois occupaient-elles ou avaient-elles ?
-* Comment puis-je en savoir plus sur Python? codeweek.eu -> Ressources
-* Comment puis-je en savoir plus sur les femmes en STIM? -> Allez dans votre bibliothèque et renseignez-vous dans votre communauté.
+* What is programming?
+* What is Python?
+* What is a dictionary?
+* What is a key?
+* What is a value?
+* Why is it written like this with funny characters and not just text? what's that called?
+* How do I make a dictionary myself or with a classmate? What is some information I want to organize?
+* What does 'STEM' stand for?
+* Who are some famous women in STEM?
+* What jobs do or did they have?
+* How can I learn more about Python? codeweek.eu -> Resources
+* How can I learn more about women in STEM? -> Go to your library and ask around in your community.
 
-<span style = "border: 2px solid gray; margin: 8px; padding: 4px;"> Pour exécuter le contenu d'une cellule, appuyez sur `contrôle + entrée` </span>
+<span style="border: 2px solid gray; margin: 8px; padding: 4px;">To execute the contents of a cell, press `control+enter`</span>
 
-
-
-%% py
-
-ada_lovelace_dict = {"prénom": "Ada", "nom de famille": "Lovelace", "rôle": "mathématicien", "second rôle": "écrivain", "date de naissance": "10 décembre 1815" , "date de décès": "27 novembre 1852", "célèbre pour": "premier programmeur informatique", "lien web": "https://en.wikipedia.org/wiki/Ada_Lovelace"}
-
-frances_arnold_dict = {"prénom": "Frances", "nom de famille": "Arnold", "rôle": "ingénieur chimiste", "date de naissance": "information privée", "date de décès": None, "célèbre pour":" pionnier dans l'utilisation de l'évolution dirigée pour concevoir des enzymes et a reçu le prix Nobel de chimie en 2018 ","lien web":"https://en.wikipedia.org/wiki/Frances_Arnold"}
-
-elizabeth_blackwell_dict = {"prénom": "Elizabeth", "nom de famille": "Blackwell", "rôle": "médecin", "date de naissance": "3 février 1821", "date de décès": "31 mai 1910 ","célèbre pour":"première femme à obtenir un diplôme de médecine aux États-Unis","lien web":"https://en.wikipedia.org/wiki/Elizabeth_Blackwell"}
-
-helen_sawyer_hogg_dict = {"prénom": "Helen", "deuxième prénom": "Sawyer", "nom de famille": "Hogg", "rôle": "astronome", "date de naissance": "1er août 1905", "date de décès": "28 janvier 1993", "célèbre pour": "recherche pionnière sur les amas globulaires et les étoiles variables, et fut la première femme présidente de plusieurs organisations astronomiques", "lien web": "https://en.wikipedia.org/wiki/Helen_Sawyer_Hogg"}
-
-%% md
-
-## Exercice 1:
-
-Imprimez certains des dictionnaires en les mentionnant simplement en dernier dans votre code. Par exemple, ```ada_lovelace_dict``` ou tapez simplement le nom des dictionnaires, puis exécutez la cellule.
 
 %% py
 
-# Exercice 1
+ada_lovelace_dict = {"first name":"Ada", "second name":"Lovelace", "role":"mathematician", "second role":"writer", "date of birth":"10 December 1815", "date of death":"27 November 1852", "famous for":"first computer programmer", "web link":"https://en.wikipedia.org/wiki/Ada_Lovelace"
+}
 
-# Tapez votre réponse sur une nouvelle ligne ci-dessous et cliquez le bouton PLAY (ou tapez Ctrl+Entrée)
+frances_arnold_dict = {"first name":"Frances", "second name":"Arnold", "role":"chemical engineer", "date of birth":"still living", "date of death":None, "famous for":"pioneering the use of directed evolution to engineer enzymes and was awarded the Nobel Prize in Chemistry in 2018", "web link":"https://en.wikipedia.org/wiki/Frances_Arnold"}
+
+elizabeth_blackwell_dict = {"first name":"Elizabeth", "second name":"Blackwell", "role":"doctor", "date of birth":"3 February 1821", "date of death":"31 May 1910", "famous for":"first woman to receive a medical degree in the United States", "web link":"https://en.wikipedia.org/wiki/Elizabeth_Blackwell"
+}
+helen_sawyer_hogg_dict = {"first name": "Helen", "second name": "Sawyer", "third name":"Hogg", "role": "astronomer", "date of birth": "1 August 1905", "date of death": "28 January 1993", "famous for": "pioneering research into globular clusters and variable stars, and was the first female president of several astronomical organizations", "web link": "https://en.wikipedia.org/wiki/Helen_Sawyer_Hogg"}
 
 
 %% md
 
-## Exercice 2:
+## Exercise 1:
 
-Découvrez la valeur d'une clé dans l'un des dictionnaires. Par exemple, ```ada_lovelace_dict["nom de famille"]```. Entraînez-vous à obtenir les valeurs de différentes clés .
-
-%% py
-
-# Exercice 2
-
-%% md
-## Exercice 3:
-Choisissez l'une des femmes en STIM. Obtenez une liste des clés de son dictionnaire. Par exemple, en tapant ```ada_lovelace_dict.keys()```. Essayez quelques autres noms de femmes. Combien de noms ont-ils? quels sont les différents emplois qu'ils occupent ou ont exercés?
-%% py
-
-# Exercice 3
-
-
-%% md
-## Exercice 4:
-Pourquoi les femmes de ce dictionnaire sont-elles célèbres? Découvrez-le en extrayant les valeurs associées à la clé, «célèbre pour». Par exemple, ```ada_lovelace_dict["célèbre pour"]```
+Print some of the dictionaries by simply mentioning them last in your code. For example, ```ada_lovelace_dict``` or just type in the name of the dictionaries and then run the cell.
 
 %% py
 
-# Exercice 4
+# Exercise 1
 
-%% md
-# Exercice 5:
-Interviewez une personne de votre classe et créez un dictionnaire avec son nom, sa couleur préférée, son sujet préféré et le nom d'un livre qu'il recommande de lire.
-
-%% py
-
-# Exercice 5 - entretien
-
-%% md
-Maintenant, ajoutons quelques scientifiques de plus...
-%% py
-
-hypatia_dict = {"prénom": "Hypatie", "nom de famille": None, "rôle": "astronome", "second rôle": "mathématicienne", "troisième rôle": "philosophe", "date de naissance" : "c. 350-370", "date de décès": "415", "célèbre pour": "professeur de philosophie et d'astronomie et première mathématicienne dont la vie est raisonnablement documentée", "lien web": "https://fr.wikipedia.org/wiki/Hypatie"}
-ada_yonath_dict = {"prénom": "Ada", "second nom": "Yonath", "rôle": "cristallographe", "date de naissance": "information privée", "date de décès": None, "célèbre pour ":" son travail révolutionnaire sur la structure du ribosome et a remporté un prix Nobel de chimie en 2009 ","lien web":"https://fr.wikipedia.org/wiki/Ada_Yonath"}
-maria_sibylla_merian_dict = {"prénom": "Maria", "deuxième prénom": "Sibylla", "nom de famille": "Merian", "rôle": "illustrateur scientifique", "second rôle": "entymologue", "date de naissance ":"2 avril 1647","date de décès":"13 janvier 1717","célèbre pour":" illustrateur naturaliste et scientifique ","lien web":"https://en.wikipedia. org / wiki / Maria_Sibylla_Merian "}
-dorothy_mary_crowfoot_hodgkin_dict = {"prénom": "Dorothy", "deuxième prénom": "Mary", "troisième prénom": "Crowfoot", "nom de famille": "Hodgkin", "rôle": "chimiste", "date de naissance":"12 mai 1910","date de décès":" 29 juillet 1994 ","célèbre pour":"a fait progresser la technique de cristallographie par rayons X pour déterminer la structure des biomolécules et a remporté le prix Nobel de chimie en 1964 " , "lien Web": "https://fr.wikipedia.org/wiki/Dorothy_Hodgkin"}
-wang_zhenyi_dict = {"prénom": "Wang", "second nom": "Zhenyi", "rôle": "astronome", "second rôle ":"poète","troisième rôle":"mathématicienne","date de naissance":"1768","date de décès":"1797","célèbre pour":"scientifique, et érudit reconnue en astronomie, mathématiques et poésie","lien web":"https://fr.wikipedia.org/wiki/Wang_Zhenyi_(astronomer)"}
-irene_joliot_curie_dict = {"prénom": "Irene", "nom de famille": "Joliot-Curie", "rôle": "chimiste", "second rôle": "physicienne", "troisième rôle":"politicienne","date de naissance":"12 septembre 1897","date de décès":"17 mars 1956","célèbre pour":"découverte de la radioactivité artificielle","lien web":"https://fr.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie"}
-maryam_mirzakhani_dict = {"prénom": "Maryam", "second nom": "Mirzakhani", "rôle": "mathématicienne", "date de naissance": "12 mai 1977", "date de décès": "14 juillet 2017","célèbre pour":" mathématicienne, lauréat de la médaille Fields et professeur de mathématiques à l'Université de Stanford ","lien web":"https://fr.wikipedia.org/wiki/Maryam_Mirzakhani"}
-elizabeth_blackburn_dict = {"prénom": "Elizabeth", "nom de famille": "Blackburn", "rôle": "biologiste moléculaire", "date de naissance": "information privée", "date de décès": None, "célèbre pour": "co-découvrir la structure des télomères sur les chromosomes ainsi que l'enzyme télomérase, et est lauréat du prix Nobel", "lien web": "https://fr.wikipedia.org/wiki/Elizabeth_Blackburn"}
-mae_jemison_dict = {"prénom": "Mae", "nom de famille": "Jemison", "rôle": "ingénieur", "second rôle": "médecin", "troisième rôle": "astronaute", "date de naissance ":"information privée"," date de décès ": None, "célèbre pour":" première femme de couleur à voyager dans l'espace ","lien web":"https://fr.wikipedia.org/wiki/Mae_Jemison","Twitter":"@maejemison ","phrase célèbre":" Ne doutez pas, osez !"}
-hertha_ayrton_dict = {"prénom": "Hertha", "nom de famille": "Ayrton", "rôle": "ingénieur", "second rôle": "mathématicienne", "troisième rôle": "inventeur", "quatrième rôle":"suffragette"," date de naissance":"28 avril 1854","date de décès":"26 août 1923","célèbre pour":"son travail sur les arcs électriques et les ondulations dans le sable et l'eau, a été récompensé la médaille Hughes de la British Royal Society","lien web":"https://fr.wikipedia.org/wiki/Hertha_Ayrton"}
-sau_lan_wu_dict = {"prénom": "Sau", "deuxième prénom": "Lan", "nom de famille": "Wu", "rôle": "physicienne des particules", "second rôle": "chef de groupe travaillant sur l'expérience ATLAS du CERN","date de naissance":"information privée","date de décès": None,"célèbre pour":" a apporté des contributions importantes à la découverte de la particule J / psi, qui a fourni des preuves expérimentales de l'existence du quark charme, et du gluon, le boson vecteur de la force forte dans le modèle standard de la physique, et fait partie de ceux qui ont contribué de manière significative à la découverte d'un boson cohérent avec les caractères prédits du boson de Higgs "," lien web " : "https://fr.wikipedia.org/wiki/Sau_Lan_Wu"}
-marie_sklowdowska_curie_dict = {"prénom": "Marie", "deuxième prénom": "Sklowdowska", "nom de famille": "Curie", "rôle": "physicienne", "second rôle": "chimiste", "date de naissance ":" 7 novembre 1867 "," date de décès ":" 4 juillet 1934 ","célèbre pour":" recherche révolutionnaire sur la radioactivité, découverte de polonium et de radium, première femme à remporter un prix Nobel, première personne et la seule femme à avoir remporté le prix Nobel à deux reprises, la seule personne à avoir remporté le prix Nobel dans deux domaines scientifiques et la première femme à devenir professeur à l'Université de Paris ","lien web":"https://fr.wikipedia.org/wiki/Marie_Curie"}
-jocelyn_bell_burnell_dict = {"prénom": "Jocelyn", "deuxième prénom": "Bell", "nom de famille": "Burnell", "rôle": "astrophysicienne", "date de naissance": "information privée", " date du décès ": None,"célèbre pour":" première personne à observer les pulsars et a également fait don de 2,3 millions de livres sterling de prix pour créer le fonds de bourses d'études supérieures Bell Burnell pour les étudiantes, les minorités ou les réfugiés qui souhaitent devenir chercheurs en physique "," lien Web ":" https://fr.wikipedia.org/wiki/Jocelyn_Bell_Burnell "}
-donna_strickland_dict = {"prénom": "Donna", "deuxième prénom": "Theo", "nom de famille": "Strickland", "rôle": "physicienne optique", "date de naissance": "information privée", "date de décès": None, "célèbre pour": "pionnière dans le domaine des lasers pulsés, elle a reçu un prix Nobel de physique en 2018 pour la mise en œuvre pratique de l'amplification des impulsions pulsées, comme pour la vision humaine", "lien web":"https://fr.wikipedia.org/wiki/Donna_Strickland"}
-valentina_tereshkova_dict = {"prénom": "Valentina", "deuxième prénom": "Vladimirovna", "nom de famille": "Terechkova", "rôle": "ingénieur", "second rôle": "astronaute", "date de naissance ":"information privée"," date de décès ": None,"célèbre pour":" première et plus jeune femme à avoir un flux dans l'espace avec une mission solo sur le Vostok 6 le 16 juin 1963 "," lien web ": "https://fr.wikipedia.org/wiki/Valentina_Tereshkova"}
-maria_goeppert_mayer_dict = {"prénom": "maria", "deuxième prénom": "Goeppert", "nom de famille": "Mayer", "rôle": "physicienne théorique", "date de naissance": "28 juin 1906" , "date de décès": "20 février 1972", "célèbre pour": "proposant le modèle de coque nucléaire du noyau atomique, pour lequel elle a reçu un prix Nobel ​​de physique ","lien web":"https://fr.wikipedia.org/wiki/Maria_Goeppert_Mayer "}
-rachel_carson_dict = {"prénom": "Rachel", "nom de famille": "Carson", "rôle": "biologiste marin", "second rôle": "auteur", "troisième rôle": "conservationniste", "date de naissance ":" 27 mai 1907 "," date de décès ":" 14 avril 1964 ","célèbre pour":" a considérablement avancé le mouvement environnemental mondial, a attiré l'attention sur les pesticides dangereux, a écrit les célèbres livres, The Sea Around Us , et Silent Spring, et a reçu une (US) Presidential Medal of Freedom ","lien web":"https://fr.wikipedia.org/wiki/Rachel_Carson ","phrase célèbre":"La race humaine est appelée plus que jamais à démontrer notre maîtrise, non pas de la nature, mais de nous-mêmes."}
-tu_youyou_dict = {"prénom": "Tu", "second nom": "Youyou", "rôle": "chimiste pharmaceutique", "second rôle": "malariologue", "date de naissance": "information privée", "date de décès": None, "célèbre pour": "découverte de l'artémisinine et de la dihydroartémisinine, utilisées pour traiter le paludisme, une percée dans la médecine tropicale du XXe siècle, sauvant des millions de vies en Chine du Sud, en Asie du Sud-Est, en Afrique et en Amérique du Sud, pour lequel elle a reçu le prix Lasker 2011 de médecine clinique et un prix Nobel 2015 de physiologie ou médecine ","lien web":"https://fr.wikipedia.org/wiki/Tu_Youyou"}
-grace_hopper_dict = {"prénom": "Grace", "deuxième prénom": "Brewster", "troisième prénom": "Murray", "nom de famille": "Hopper", "rôle": "informaticienne", "second rôle ":" Contre-amiral de la marine américaine ","date de naissance":"9 décembre 1906","date de décès":"1er janvier 1992","célèbre pour":" un pionnier de la programmation informatique qui a programmé l'un des les tout premiers ordinateurs électroniques, a inventé l'un des premiers linkers (à l'origine appelé un compilateur) et popularisé l'idée de langages de programmation indépendants de la machine, ce qui a conduit au développement du langage de programmation COBOL ","lien web":"https://fr.wikipedia.org/wiki/Grace_Hopper "}
-mary_somerville_dict = {"prénom": "Mary", "nom de famille": "Somerville", "rôle": "écrivain scientifique", "second rôle": "mathématicienne", "date de naissance": "26 décembre 1780" , "date de décès": "29 septembre 1872", "célèbre pour": "promouvoir l'utilisation et la traduction d'ouvrages sur le calcul différentiel et vulgariser la science, les mathématiques et l'astronomie", "web link": "https:// en. wikipedia.org/wiki/Mary_Somerville "}
-may_britt_moser_dict = {"prénom": "Britt-May", "nom de famille": "Moser", "rôle": "neuroscientifique", "second rôle": "psychologue", "date de naissance": "information privée" , "date de décès": None, "célèbre pour": "recherche pionnière sur le cerveau permettant de nouvelles connaissances sur les conditions neurologiques humaines et a reçu un prix Nobel en 2014 en physiologie ou médecine", "lien web": "https://fr.wikipedia.org/wiki/ May-Britt_Moser "}
-carol_greider_dict = {"prénom": "Carolyn", "deuxième prénom": "Widney", "nom de famille": "Greider", "rôle": "biologiste moléculaire", "date de naissance": "information privée", "date de décès": None, "célèbre pour": "découverte que les télomères (les extrémités des chromosomes) sont protégés du raccourcissement progressif par l'enzyme télomérase et a reçu un prix Nobel en 2009 pour la physiologie ou la médecine", "lien web": "https://fr.wikipedia.org/wiki/Carol_W._Greider"}
-francoise_barre_sinoussi_dict = {"prénom": "Françoise", "nom de famille": "Barré-Sinoussi", "rôle": "virologue", "date de naissance": "information privée", "date de décès": None, "célèbre pour": "certains des travaux fondamentaux visant à identifier le virus de l'immunodéficience humaine (VIH) comme cause du sida et a reçu en 2008 un prix Nobel de physiologie ou de médecine", "lien web": "https://fr.wikipedia.org/wiki/Fran% C3% A7oise_Barr% C3% A9-Sinoussi"}
-linda_buck_dict = {"prénom": "Linda", "nom de famille": "Buck", "rôle": "biologiste", "date de naissance": "information privée", "date de décès": None, "célèbre pour ":" son travail sur les récepteurs olfactifs et a reçu le prix Nobel 2004 de physiologie ou médecine ","lien web":"https://fr.wikipedia.org/wiki/Linda_B._Buck"}
-christiane_nusslein_volhard_dict = {"prénom": "Christiane", "deuxième prénom": "Nüsslein", "nom de famille": "Volhard", "rôle": "biologiste du développement", "date de naissance": "information privée", "date de décès": None, "célèbre pour": "recherche sur le contrôle génétique du développement embryonnaire et a reçu un prix Nobel de physiologie ou médecine en 1995", "lien web": "https://fr.wikipedia.org/wiki/Christiane_N%C3%BCsslein-Volhard"}
-gertrude_elion_dict = {"prénom": "Gertrude", "nom de famille": "Elion", "rôle": "biochimiste", "second rôle": "pharmacologue", "date de naissance": "23 janvier 1918", "date de décès": "21 février 1999", "célèbre pour": "utilisation de méthodes innovantes de conception rationnelle de médicaments pour le développement de nouveaux médicaments et prix Nobel de physiologie ou de médecine en 1988", "lien web" : "https://fr.wikipedia.org/wiki/Gertrude_Elion"}
-rita_levi_montalicini_dict = {"prénom": "Rita", "deuxième prénom": "Levi", "nom de famille": "Montalchini", "rôle": "neurobiologiste", "date de naissance": "22 avril 1909", "date de décès": "30 décembre 2012", "célèbre pour": "la découverte du facteur de croissance nerveuse, ou NGF, et a reçu un prix Nobel de physiologie ou de médecine en 1986 ","lien web":"https://fr.wikipedia.org/wiki/Rita_Levi-Montalcini"}
-barbara_mcclintock_dict = {"prénom": "Barbara", "nom de famille": "McClintock", "rôle": "cytogénéticien", "date de naissance": "16 juin 1902", "date de décès": "2 septembre 1992 ","célèbre pour":"découvertes majeures en génétique telles que la découverte de la transposition génétique pour laquelle elle a reçu le prix Nobel 1983 -non partagé- en physiologie ou médecine","lien web":"https://fr.wikipedia.org/wiki/Barbara_McClintock"}
-rosalyn_sussman_yalow_dict = {"prénom": "Rosalyn", "deuxième prénom": "Sussman", "nom de famille": "Yalow", "rôle": "physicienne médical", "date de naissance": "19 juillet 1921" , "date de décès": "30 mai 2011", "célèbre pour": "développement de la technique de radioimmunoessai et a reçu un prix Nobel de physiologie ou médecine en 1977", "lien web": "https://fr.wikipedia.org/wiki/Rosalyn_Yalow"}
-gerty_cori_dict = {"prénom": "Gerty", "deuxième prénom": "Cori", "rôle": "biochimiste", "date de naissance": "15 août 1896", "date de décès": "26 octobre 1957 ","célèbre pour":"découverte du cours de la conversion catalytique du glycogène et en 1947 a été la première femme à recevoir un prix Nobel de physiologie ou médecine","lien web":"https://fr.wikipedia.org/wiki/Gerty_Theresa_Cori"}
-
-
-%% md
-## Exercice 6:
-Trouvez trois mathématiciennes issues de ces dictionnaires? trois physiciennes? trois chimistes? Par exemple, ```marie_sklowdowska_curie_dict["rôle"]```
-
-%% py
-
-# Exercice 6
-
-%% md
-## Exercice 7:
-Vérifiez si l'une des femmes était mathématicienne en tirant les clés de rôle. Certaines femmes ont jusqu'à trois rôles («rôle», «second rôle», «troisième rôle»).
-
-%% py
-
-# Exercice 7
-%% md
-## Exercice 8:
-Quel genre d'autres rôles en plus des rôles STIM certaines de ces femmes ont-elles? Étaient-ils actifs dans autre chose que la science, la technologie, l'ingénierie et les mathématiques?
-
-%% py
-
-# Exercice 8
-
-%% md
-# Exercice 9:
-Ajoutez plus de femmes à votre dictionnaire. Par exemple, vous pouvez ajouter les femmes qui ont remporté des prix Nobel en 2020:
-* Andrea Mila Ghez [https://en.wikipedia.org/wiki/Andrea_M._Ghez[https://en.wikipedia.org/wiki/Andrea_M._Ghez),
-* Emmanuelle Charpentier [https://en.wikipedia.org/wiki/Emmanuelle_Charpentier </font>(https://en.wikipedia.org/wiki/Emmanuelle_Charpentier)
-* et Jennifer Doudna [https://en.wikipedia.org/wiki/Jennifer_Doudna[/https://en.wikipedia.org/wiki/Jennifer_Doudna).
-
-Ils sont toujours vivants ainsi pour leur date de naissance juste mis, «toujours vivant» comme valeur. Vous pouvez également choisir quelqu'un dans cette chronologie des femmes dans la science: [https://en.wikipedia.org/wiki/Timeline_of_women_in_science circular )(https://en.wikipedia.org/wiki/Timeline_of_women_in_science).
-
-%% py
-
-# Exercice 9
+# Type your answer on a new line underneath here and click the PLAY button (or type Ctrl+Enter)
 
 
 %% md
 
-Maintenant, nous allons regrouper certains de nos dictionnaires pour faciliter l'exécution d'actions sur plusieurs dictionnaires à la fois
+## Exercise 2:
+Find out the value of a key in one of the dictionaries. For example, ```ada_lovelace_dict["second name"]```. Practice getting the values of a bunch of different keys.
 
 %% py
 
-# Exercice 9 - plusieurs dictionnaires
-ma_liste = [
+# Exercise 2
+
+%% md 
+## Exercise 3:
+Pick one of the women in STEM. Get a list of the keys in her dictionary. For example, ```ada_lovelace_dict.keys()```. Try a couple of other women's names. How many names do they have? what are some of the different jobs they have or have had?
+%% py
+
+# Exercise 3
+
+
+%% md 
+## Exercise 4:
+What are the women in this dictionary famous for? Find out by pulling up the values associated to the key, "famous for". For example, ```ada_lovelace_dict["famous for"]```
+
+%% py 
+
+# Exercise 4
+
+%% md
+# Exercise 5:
+Interview someone in your class and make a dictionary with their name, favorite color, favorite subject, and the name of a book that they recommend reading.
+
+%% py
+
+# Exercise 5 - interview
+
+%% md 
+Now let's load a few more scientists
+%% py 
+
+hypatia_dict = {"first name":"Hypatia", "second name":None, "role":"astronomer", "second role": "mathematician", "third role": "philosopher", "date of birth":"c. 350-370", "date of death":"415", "famous for":"philosophy and astronomy teacher and first female mathematician whose life is reasonably well recorded", "web link":"https://en.wikipedia.org/wiki/Hypatia"}
+ada_yonath_dict = {"first name":"Ada", "second name":"Yonath", "role":"crystallographer", "date of birth":"still living", "date of death":None, "famous for":"her groundbreaking work on the structure of the ribosome and won a Nobel Prize in chemistry in 2009", "web link":"https://en.wikipedia.org/wiki/Ada_Yonath"}
+maria_sibylla_merian_dict = {"first name":"Maria", "second name":"Sibylla", "third name": "Merian", "role":"scientific illustrator", "second role": "entymologist", "date of birth":"April 2, 1647", "date of death":"January 13, 1717", "famous for":"naturalist and scientific illustrator", "web link":"https://en.wikipedia.org/wiki/Maria_Sibylla_Merian"}
+dorothy_mary_crowfoot_hodgkin_dict = {"first name": "Dorothy", "second name": "Mary", "third name": "Crowfoot", "fourth name": "Hodgkin", "role": "chemist", "date of birth": "12 May 1910", "date of death": "29 July 1994", "famous for": "advanced the technique of X-ray crystallography to determine the structure of biomolecules and won the 1964 Nobel Prize in chemistry", "web link": "https://en.wikipedia.org/wiki/Dorothy_Hodgkin"}
+wang_zhenyi_dict = {"first name":"Wang", "second name":"Zhenyi", "role":"astronomer", "second role": "poet", "third role": "mathematician", "date of birth":"1768", "date of death":"1797", "famous for":"scientist, and acclaimed scholar in astronomy, mathematics, and poetry", "web link":"https://en.wikipedia.org/wiki/Wang_Zhenyi_(astronomer)"}
+irene_joliot_curie_dict = {"first name": "Irene", "second name": "Joliot", "third name": "Curie", "role": "chemist", "second role": "physicist", "third role": "politician", "date of birth": "12 September 1897", "date of death": "17 March 1956", "famous for": "discovery of artificial radioactivity", "web link": "https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie"}
+maryam_mirzakhani_dict = {"first name":"Maryam", "second name":"Mirzakhani", "role":"mathematician", "date of birth":"12 May 1977", "date of death":"14 July 2017", "famous for":"mathematician, winner of the Fields medal, and professor of mathematics at Stanford University", "web link":"https://en.wikipedia.org/wiki/Maryam_Mirzakhani"}
+elizabeth_blackburn_dict = {"first name":"Elizabeth", "second name":"Blackburn", "role":"molecular biologist", "date of birth":"still living", "date of death":None, "famous for":"co-discovering the telomere structure on chromosomes as well as the telomerase enzyme, and is a Nobel laureate", "web link":"https://en.wikipedia.org/wiki/Elizabeth_Blackburn"}
+mae_jemison_dict = {"first name":"Mae", "second name":"Jemison", "role":"engineer", "second role":"physician", "third role":"astronaut", "date of birth":"still living", "date of death":None, "famous for":"first woman of color to travel into space", "web link":"https://en.wikipedia.org/wiki/Mae_Jemison", "Twitter":"@maejemison", "quote": "Don't doubt, dare!"}
+hertha_ayrton_dict = {"first name":"Hertha", "second name":"Ayrton", "role":"engineer", "second role": "mathematician", "third role": "inventor", "fourth role":"suffragette", "date of birth":"28 April 1854", "date of death":"26 August 1923", "famous for":"her work on electric arcs and ripples in sand and water, was awarded the Hughes Medal by the British Royal Society", "web link":"https://en.wikipedia.org/wiki/Hertha_Ayrton"}
+sau_lan_wu_dict = {"first name":"Sau", "second name":"Lan", "third name": "Wu", "role":"particle physicist", "second role": "a group leader working on CERN's ATLAS experiment", "date of birth":"still living", "date of death":None, "famous for":"made important contributions towards the discovery of the J/psi particle, which provided experimental evidence for the existence of the charm quark, and the gluon, the vector boson of the strong force in the Standard Model of physics, and is among those who significantly contributed to the discovery of a boson consistent with the predicted characters of Higgs boson", "web link":"https://en.wikipedia.org/wiki/Sau_Lan_Wu"}
+marie_sklowdowska_curie_dict = {"first name":"Marie", "second name":"Sklowdowska", "third name": "Curie", "role":"physicist", "second role": "chemist", "date of birth":"7 November 1867", "date of death": "4 July 1934", "famous for":"groundbreaking research on radioactivity, discovery of polonium and radium, the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, the only person to win the Nobel Prize in two scientific fields, and the first woman to become a professor at the University of Paris", "web link":"https://en.wikipedia.org/wiki/Marie_Curie"}
+jocelyn_bell_burnell_dict = {"first name":"Jocelyn", "second name":"Bell", "third name":"Burnell", "role":"astrophysicist", "date of birth":"still living", "date of death":None, "famous for":"first person to observe pulsars and also donated £2.3 million of prize money to establish the Bell Burnell Graduate Scholarship Fund for female, minority or refugee students seeking to become physics researchers", "web link":"https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell"}
+donna_strickland_dict = {"first name": "Donna", "second name": "Theo", "third name": "Strickland", "role": "optical physicist", "date of birth": "27 may 1959", "date of death": None, "famous for": "a pioneer in the field of pulsed lasers, she was awarded a Nobel Prize in physics in 2018 for the practical implementation of chirped pulse amplification, such as for human vision", "web link": "https://en.wikipedia.org/wiki/Donna_Strickland"}
+valentina_tereshkova_dict = {"first name":"Valentina", "second name":"Vladimirovna", "third name":"Tereshkova", "role":"engineer", "second role": "astronaut", "date of birth":"still living", "date of death":None, "famous for":"first and youngest woman to have flow in space with a solo mission on the Vostok 6 on 16 June 1963", "web link":"https://en.wikipedia.org/wiki/Valentina_Tereshkova"}
+maria_goeppert_mayer_dict = {"first name": "maria", "second name": "Goeppert", "third name": "Mayer", "role": "theoretical physicist", "date of birth": "28 June 1906", "date of death":"20 February 1972", "famous for": "proposing the nuclear shell model of the atomic nucleus, for which she was awarded a Nobel Prize in physics", "web link": "https://en.wikipedia.org/wiki/Maria_Goeppert_Mayer"}
+rachel_carson_dict = {"first name":"Rachel", "second name":"Carson", "role":"marine biologist", "second role": "author", "third role":"conservationist", "date of birth":"27 May 1907", "date of death":"14 April 1964", "famous for":"significantly advanced the global environmenal movement, drew attention to dangerous pesticides, authored the famous books, The Sea Around Us, and Silent Spring, and was awarded a (U.S.) Presidential Medal of Freedom", "web link":"https://en.wikipedia.org/wiki/Rachel_Carson", "quote":"The human race is challenged more than ever before to demonstrate our mastery, not over nature but of ourselves."}
+tu_youyou_dict = {"first name": "Tu", "second name": "Youyou", "role": "pharmaceutical chemist", "second role": "malariologist", "date of birth": "still living", "date of death": None, "famous for": "discovered artemisinin and dihydroartemisinin, used to treat malaria, a breakthrough in twentieth-century tropical medicine, saving millions of lives in South China, Southeast Asia, Africa, and South America, for which she received the 2011 Lasker Award in clinical medicine and a 2015 Nobel Prize in Physiology or Medicine", "web link": "https://en.wikipedia.org/wiki/Tu_Youyou"}
+grace_hopper_dict = {"first name":"Grace", "second name":"Brewster", "third name": "Murray", "fourth name": "Hopper", "role":"computer scientist", "second role": "United States Navy rear admiral", "date of birth":"9 December 1906", "date of death":"1 January 1992", "famous for":"a pioneer of computer programming who programmed one of the first-ever electronic computers, invented a one of the first linkers (originally called a compiler), and popularized the idea of machine-independent programming languages, which led to the development of the COBOL programming language", "web link":"https://en.wikipedia.org/wiki/Grace_Hopper"}
+mary_somerville_dict = {"first name": "Mary", "second name": "Somerville", "role": "science writer", "second role":"mathematician", "date of birth": "26 December 1780", "date of death": "29 September 1872", "famous for": "promoting the use of and translating works on differential calculus and popularising science, mathematics and astronomy", "web link": "https://en.wikipedia.org/wiki/Mary_Somerville"}
+may_britt_moser_dict = {"first name": "Britt-May", "second name": "Moser", "role": "neuroscientist", "second role":"psychologist", "date of birth": "still living", "date of death": None, "famous for": "pioneering brain research allowing new knowledge into human neurological conditions and was awarded a Nobel Prize in 2014 in Physiology or Medicine", "web link": "https://en.wikipedia.org/wiki/May-Britt_Moser"}
+carol_greider_dict = {"first name": "Carolyn", "second name": "Widney", "third name": "Greider", "role": "molecular biologist", "date of birth": "still living", "date of death": None, "famous for": "discovery that telomeres are protected from progressive shortening by the enzyme telomerase and was awarded a Nobel Prize in 2009 for Physiology or Medicine", "web link": "https://en.wikipedia.org/wiki/Carol_W._Greider"}
+francoise_barre_sinoussi_dict = {"first name": "Françoise", "second name": "Barré-Sinoussi", "role": "virologist", "date of birth": "still living", "date of death": None, "famous for": "some of the fundamental work to identify the human immunodeficiency virus (HIV) as the cause of AIDS and in 2008 was awarded a Nobel Prize in Physiology or Medicine", "web link": "https://en.wikipedia.org/wiki/Fran%C3%A7oise_Barr%C3%A9-Sinoussi"}
+linda_buck_dict = {"first name": "Linda", "second name": "Buck", "role": "biologist", "date of birth": "still living", "date of death": None, "famous for": "her work on the olfactory receptors and was awarded the 2004 Nobel Prize in Physiology or Medicine", "web link": "https://en.wikipedia.org/wiki/Linda_B._Buck"}
+christiane_nusslein_volhard_dict = {"first name": "Christiane", "second name": "Nüsslein", "third name": "Volhard", "role": "developmental biologist", "date of birth": "still living", "date of death": None, "famous for": "research on the genetic control of embryonic development and was awarded a Nobel Prize in Physiology or Medicine in 1995", "web link": "https://en.wikipedia.org/wiki/Christiane_N%C3%BCsslein-Volhard"}
+gertrude_elion_dict = {"first name": "Gertrude", "second name": "Elion", "role": "biochemist", "second role": "pharmacologist", "date of birth": "23 January 1918", "date of death": "21 February 1999", "famous for": "use of innovative methods of rational drug design for the development of new drugs and was awarded a Nobel Prize in Physiology or Medicine in 1988", "web link": "https://en.wikipedia.org/wiki/Gertrude_B._Elion"}
+rita_levi_montalicini_dict = {"first name": "Rita", "second name": "Levi", "third name": "Montalchini", "role": "neurobiologist", "date of birth": "22 April 1909", "date of death": "30 December 2012", "famous for": "the discovery of nerve growth factor, or NGF, and was awarded a 1986 Nobel Prize in Physiology or Medicine", "web link": "https://en.wikipedia.org/wiki/Rita_Levi-Montalcini"}
+barbara_mcclintock_dict = {"first name": "Barbara", "second name": "McClintock", "role": "cytogeneticist", "date of birth": "16 June 1902", "date of death": "2 September 1992", "famous for": "major discoveries in genetics such as the discovery of genetic transposition for which she was awarded the 1983 Nobel Prize - unshared- in Physiology  Medicine", "web link": "https://en.wikipedia.org/wiki/Barbara_McClintock"}
+rosalyn_sussman_yalow_dict = {"first name": "Rosalyn", "second name": "Sussman", "third name": "Yalow", "role": "medical physicist", "date of birth": "19 July 1921", "date of death": "30 May 2011", "famous for": "development of the radioimmunoassay technique and was awarded a Nobel Prize in Physiology or Medicine in 1977", "web link": "https://en.wikipedia.org/wiki/Rosalyn_Sussman_Yalow"}
+gerty_cori_dict = {"first name": "Gerty", "second name": "Cori", "role": "biochemist", "date of birth": "15 August 1896", "date of death": "26 October 1957", "famous for": "discovery of the course of the catalytic conversion of glycogen and in 1947 was the first woman to be awarded a Nobel Prize in Physiology or Medicine", "web link": "https://en.wikipedia.org/wiki/Gerty_Cori"}
+
+%% md 
+## Exercise 6:
+Who are three mathematicians from these dictionaries? three physicists? three chemists? For example, ```marie_sklowdowska_curie_dict["role"]```
+
+%% py 
+
+# Exercise 6
+
+
+%% md 
+## Exercise 7:
+Check to see if one of the women was a mathematician by pulling up the role keys. Some women have up to three roles ("role", "second role", "third role").
+
+%% py
+
+# Exercise 7
+%% md 
+## Exercise 8:
+What kind of other roles besides STEM roles did some of these women have? Were they active in anything besides science, technology, engineering and mathematics?
+
+%% py
+
+# Exercise 8
+
+%% md
+# Exercise 9:
+Add more women to your dictionary. For example, you can add the women who won Nobel Prizes in 2020: 
+* Andrea Mila Ghez [https://en.wikipedia.org/wiki/Andrea_M._Ghez](https://en.wikipedia.org/wiki/Andrea_M._Ghez),
+* Emmanuelle Charpentier [https://en.wikipedia.org/wiki/Emmanuelle_Charpentier](https://en.wikipedia.org/wiki/Emmanuelle_Charpentier)
+* and Jennifer Doudna [https://en.wikipedia.org/wiki/Jennifer_Doudna](https://en.wikipedia.org/wiki/Jennifer_Doudna). 
+
+They are still living so for their date of birth just put, "still living" as the value. You can also pick someone from this timeline of women in science: [https://en.wikipedia.org/wiki/Timeline_of_women_in_science](https://en.wikipedia.org/wiki/Timeline_of_women_in_science).
+
+%% py
+
+# Exercise 9
+
+%% md
+
+Now we will group some of our dictionaries together to make it easier to perform actions on multiple dictionaries at once
+
+%% py
+
+# Exercise 10 - multiple dictionaries
+my_scientists = [
     ada_lovelace_dict,
     gerty_cori_dict,
     rosalyn_sussman_yalow_dict,
     hypatia_dict
 ]
 
+%% md
+We can run actions on each member of our list: 
+
+%% py 
+
+roles = ""
+for scientist in my_scientists:
+    roles += scientist["role"]+" "
+
+# display the result
+roles
 
 %% md
-Nous pouvons exécuter des actions sur chaque membre de notre liste:
+# Exercise 11:
+Display the date of birth of each scientist in our list
 
 %% py
 
-rôles = ""
-for scientifique in ma_liste:
-    rôles += scientifique["rôle"] + ", "
-
-# afficher le résultat 
-rôles
+# Exercise 11
 
 %% md
-# Exercice 10:
-Afficher la date de naissance de chaque scientifique dans notre liste
+## Follow-Up Activities
 
-%% py
-
-# Exercice 10
-
-%% md
-## Des activités de suivi
-
-1. Visitez votre bibliothèque locale et voyez s'ils ont des livres sur les femmes en STIM (science, technologie, ingénierie et mathématiques). Recherchez un livre non romanesque, une biographie. Qu'a-t-elle étudié à l'école? Rédigez un court rapport sur le livre et partagez-le avec votre classe de sciences, de programmation, de mathématiques ou de langue. Dessinez-la pour accompagner votre rapport.
-1. Ajoutez des citations des femmes à ces dictionnaires Python, à la fin de leur dictionnaire. Vous avez un exemple dans certains dictionnaires, mais pas dans tous. Voyez si vous pouvez trouver des devis en ligne ou à votre bibliothèque.
-1. Quel est l'un des rôles qui vous a semblé intéressant? Y avait-il un rôle dont vous n'aviez pas entendu parler auparavant? Y avait-il un mot que vous n'aviez jamais entendu auparavant qui vous paraissait intéressant? Allez à la bibliothèque et apprenez-en plus sur l'une des carrières ou des sujets qui suscitent votre curiosité. Écrivez à ce sujet et partagez-le avec l'une de vos classes à l'école.
-1. Quelles sont les femmes en STIM dans votre ville? Demandez à votre bibliothécaire local. Trouvez des femmes qui travaillent comme enseignantes, en médecine, en technologie ou en mathématiques. Peut-être qu'ils travaillent dans la finance ou la comptabilité. Vous en connaissez un? Posez-leur des questions, comme ce qu'ils aiment dans leur travail ou comment ils ont commencé dans leur domaine.
-1. Utilisez les dictionnaires Women in STIM pour créer un quiz, en travaillant par paires.
-1. Quelle est l'une des associations professionnelles à laquelle appartient ou appartient une femme célèbre dans le domaine des STIM? Regardez leurs pages Wikipédia pour en trouver une, afin de savoir en quoi ces associations peuvent vous aider si vous vous intéressez aux métiers scientifiques.
+1. Go to your local library and see if they have books on women in STEM (science, technology, engineering and mathematics). Look for a nonfiction book, a biography. What did she study in school? Write a short report on the book and share it with your science, programming, math or language class. Draw a picture of her to go with your report.
+1. Add quotes by the women to these Python dictionaries, at the end of their dictionary. You have an example in some of the dictionaries, but not all. See if you can find quotes online or at your library.
+1. What is one of the roles that sounded interesting to you? Was there a role you had not heard of before? Was there a word that you had never heard before that sounded interesting? Go the library and find out more about one of the careers or subjects that sparks your curiosity. Write about it and share it with one of your classes at school.
+1. Who are some women in STEM in your town? Ask your local librarian. Find some women working as teachers, in medicine, in technology, or working in mathematics. Maybe they are working in finance or accounting. Do you know any? Ask them some questions, like what they like about their jobs or how they got started in their field.
+1. Use the Women in STEM dictionaries to make a quiz, working in pairs.
+1. What is one of the professional associations to which a famous woman in STEM belonged or belongs? Look at their Wikipedia pages to find one, and then find out more about it.
